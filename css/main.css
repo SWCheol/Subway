@@ -1,0 +1,306 @@
+:root {
+    --green: #009223;
+    --yellow: #ffce32;
+}
+
+header h1 a {
+    display: inline-block;
+    vertical-align: top;
+    width: 202px;
+    height: 40px;
+    background: url(../img/logo_w.png) no-repeat;
+    background-size: contain;
+}
+
+header .dropdown-item {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+header .dropdown-item:hover {
+    color: var(--green);
+}
+
+.helpMenu .find .findShop {
+    width: 300px;
+    height: 60px;
+    color: #000;
+    background: var(--yellow);
+    border: 1px solid var(--yellow);
+    position: relative;
+}
+
+.findShop::before {
+    content: "";
+    width: 24px;
+    height: 30px;
+    background: url(../img/icon_map.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+
+.helpMenu .find .joinShop {
+    width: 300px;
+    height: 60px;
+    background: var(--green);
+    border: 1px solid var(--green);
+    position: relative;
+}
+
+.joinShop::before {
+    content: "";
+    width: 34px;
+    height: 30px;
+    background: url(../img/icon_franchise.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.login > .btn {
+    width: 200px;
+    height: 40px;
+    background: var(--green);
+    border: 1px solid var(--green);
+}
+
+.login .formLogin {
+    position: relative;
+}
+
+.login .id, .login .pwd {
+    display: block;
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+.login .login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18%;
+    height: 105px;
+    color: #000;
+    background: #ffce32;
+    border: 1px solid #ffce32;
+    border-radius: 5px;
+}
+
+.login .login:hover {
+    color: #fff;
+    background: var(--green);
+    border: 1px solid var(--green);
+}
+
+.login .link a:hover {
+    color: #000;
+}
+
+.login .modal-footer .save {
+    color: #000;
+    background: #ffce32;
+    border: 1px solid #ffce32;
+}
+
+.login .modal-footer .save:hover {
+    color: #fff;
+    background: var(--green);
+    border: 1px solid var(--green);
+}
+
+.login .modal-footer .close:hover {
+    background: #6c757d;
+}
+
+.section3 h3 {
+    font-weight: bold;
+    position: relative;
+    margin: 25px 0;
+}
+
+.section3 h3::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: url(../img/bul_tit.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    z-index: -1;
+}
+
+.section3 .accordion-button:focus {
+    color: black;
+    background-color: var(--yellow);
+    box-shadow: 5px 5px 5px 10px rgba(203, 250, 203, 0.5);
+}
+
+.section3 .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--green);
+}
+
+.section3 .card-title {
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.section3 .card-text {
+    color: #6c757d;
+    font-size: 14px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.section4 .img {
+    width: 70px;
+    height: 70px;
+    background: url(../img/icon_quickmenu.png) no-repeat;
+    background-size: cover;
+}
+
+.section4 .box:nth-of-type(2) .img {
+    background-position: -70px 0px;
+}
+
+.section4 .box:nth-of-type(3) .img {
+    background-position: -140px 0px;
+}
+
+.section4 .box:nth-of-type(4) .img {
+    background-position: -210px 0px;
+}
+
+.section4 .box p {
+    color: #6c757d;
+    font-size: 12px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.section4 .box {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.section4 .box:hover {
+    background-color: rgb(203, 250, 203);
+}
+
+.section5 .more {
+    position: relative;
+}
+
+.section5 .more div {
+    position: absolute;
+    top: 15%;
+    left: 10%;    
+}
+
+.section5 .more a {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+.section5 .new h2 {
+    position: relative;
+}
+
+.section5 .new h2::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: url(../img/bul_tit.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -75%;
+    left: 25%;
+    z-index: -1;
+}
+
+.section5 .notice .link {
+    color: black;
+    transition: 0.3s all;
+    position: relative;
+}
+
+.section5 .notice .link:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.section5 .notice a:last-child {
+    color: #636363;
+}
+
+.section5 .history {
+    position: relative;
+}
+
+.section5 .history div {
+    position: absolute;
+    top: 15%;
+    right: 12%;
+}
+
+.section5 .history a {
+    position: absolute;
+    top: 70%;
+    right: 38%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+footer {
+    color: #636363;
+}
+
+footer .row > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer a {
+    font-size: 14px;
+    color: #636363;
+    white-space: nowrap;
+}
+
+footer a:hover {
+    color: #636363;
+}
+
+footer .text {
+    font-size: 13px;
+}
+
+footer .text .address span {
+    position: relative;
+    margin-right: 12px;
+}
+
+footer .text .address span::after {
+    content: "";
+    width: 2px;
+    height: 10px;
+    background-color: #636363;
+    position: absolute;
+    top: 4px;
+    right: -10px;
+}
+
+footer .text .address span:last-child::after {
+    display: none;
+}

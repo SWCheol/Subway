@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+input, button {
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.hideText {
+  display: none;
+}
+
+h1 {
+  font-weight: bold;
+}
